@@ -2,7 +2,7 @@
 title: "myStockPresentation"
 author: "Edward Cheng"
 date: "November 23, 2016"
-output: html_document
+output: pdf_document
 ---
 
 ```{r}

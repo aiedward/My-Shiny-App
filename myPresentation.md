@@ -7,15 +7,18 @@ date: November 23, 2016
 
 My Stock 
 ========================================================
-I choose three stock codes:AAPL is for Apple, ORCL is ORCAL and IBM is for IBM. All data have been collected from quantmod for 1 year. 
+I choose three stock codes:  is for Apple(AAPL), Google(GOOG) and IBM(IBM). 
 
-There are three programs:sever.R, ui.R and myStock.R.
+All data have been collected from quantmod for 1 year. 
 
-My stock address- https://aiedward.shinyapps.io/Project/
+There are three programs: server.R, ui.R and myStock.R.
+
+My stock address- https://aiedward.shinyapps.io/myShiny/
 
 My stock funcion syntax
 ========================================================
-Pre-Process function:Ensure what sotck code user want and what duration user want 
+Pre-Process function: 
+Ensure what sotck code by user and what duration by user. 
 
 ```r
 library('quantmod')
@@ -130,7 +133,7 @@ Data are from
 </div><!--/html_preserve-->
 
 
-My serve syntax
+My server syntax
 ========================================================
 Call my stock program before runing the shinyServer. Excute the shineyServer and update the value of duration
 
@@ -161,12 +164,12 @@ shinyServer(
 ```
 
 
-Slide with APPLe lasting for 3 months
+Slide with Google lasting for 3 months
 ========================================================
 
 
 ```
-[1] "AAPL"
+[1] "GOOG"
 ```
 
 ![plot of chunk unnamed-chunk-4](myPresentation-figure/unnamed-chunk-4-1.png)![plot of chunk unnamed-chunk-4](myPresentation-figure/unnamed-chunk-4-2.png)
