@@ -1,0 +1,12 @@
+---
+title: "myStockPresentation"
+author: "Edward Cheng"
+date: "November 23, 2016"
+output: html_document
+---
+
+```{r}
+setwd("C:/Users/Edward/Documents/GitHub/My-Shiny-App")
+library(shiny)
+runApp()
+```
