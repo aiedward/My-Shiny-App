@@ -1,0 +1,10 @@
+name: myshiny
+title:
+account: aiedward
+server: shinyapps.io
+appId: 139723
+bundleId: 623860
+url: https://aiedward.shinyapps.io/myshiny/
+when: 1479932536.63042
+asMultiple: FALSE
+asStatic: FALSE

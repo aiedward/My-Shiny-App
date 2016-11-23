@@ -2,5 +2,6 @@
 setwd("C:/Users/Edward/Documents/GitHub/My-Shiny-App")
 
 library(shinyapps)
-shinyapps::setAccountInfo(name='aiedward', token='2B6E1BC5BFAEB7CDB205AA1427BB2663', secret='Z/PeggVUiNvcGQoNX8KGGgD0Q2TlsA4rrM0BdQx3')
+shinyapps::setAccountInfo(name='aiedward', token='00AA04B3C6A347D654D966755B705843', secret='3qgkavF5iidn3E1uLbzecTcS0IeIu+3vLVrt1YxT')
 shinyapps::deployApp('C:/Users/Edward/Documents/GitHub/My-Shiny-App')
+

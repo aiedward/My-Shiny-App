@@ -2,9 +2,9 @@ name: My-Shiny-App
 title:
 account: aiedward
 server: shinyapps.io
-appId: 139706
-bundleId: 623804
+appId: 139725
+bundleId: 623869
 url: https://aiedward.shinyapps.io/My-Shiny-App/
-when: 1479928815.20357
+when: 1479932760.40322
 asMultiple: FALSE
 asStatic: FALSE
